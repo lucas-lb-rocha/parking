@@ -2,6 +2,9 @@
 
 Essa API é um CRUD para um sistema de estacionamentos: permite realizar crud de usuários, clientes, e carros em vagas.
 
+# Fonte de estudo
+Esse projeto é resultado do curso https://www.udemy.com/course/api-rest-e-spring-boot-aprenda-do-zero-e-na-pratica
+
 # Pré-requisistos
 - Java 17
 - Mysql
@@ -90,7 +93,5 @@ FOREIGN KEY (id_vaga) REFERENCES vagas(id)
 # Swagger
 http://localhost:8080/park/swagger-ui/index.html
 
-# Fonte de estudo
-Esse projeto é resultado do curso https://www.udemy.com/course/api-rest-e-spring-boot-aprenda-do-zero-e-na-pratica
 
 Link para o vídeo com a demonstração da aplicação: https://youtu.be/nNUduY_wVbM
